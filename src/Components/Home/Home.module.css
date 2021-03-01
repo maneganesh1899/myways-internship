@@ -1,0 +1,56 @@
+.main{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.titless{
+    margin-top:21.1rem; 
+    text-align: center;
+    font: normal normal bold 4.1rem/5.6rem 'Open Sans';
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.para{
+    margin-top: 1.6rem;
+    margin-left: 17.9rem;
+    margin-right: 17.9rem;
+    text-align: center;
+    font: normal normal normal 2.8rem/3.8rem 'Open Sans';
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.btn{
+    margin-top: 1rem;
+    width: 23.6rem;
+    height: 5.3rem;
+    background: #7ECB20 0% 0% no-repeat padding-box;
+    border-radius: 2.7rem;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 2.4rem/3.3rem Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+      font-size: 45%;
+    }
+    .para{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .btn{
+        width: 40%;
+        height: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+  }

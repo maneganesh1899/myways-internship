@@ -1,0 +1,56 @@
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 67.6rem;
+    height: 57.9rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0rem .3rem .6rem #00000029;
+    border-radius: 1.5rem;
+    opacity: 1;
+}
+.check{
+    margin-left: 30.1rem;
+    margin-top: 21.905rem;
+    width: 7.3rem;
+    height: 7.3rem;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.th{
+    margin-top: 3.496rem;
+    margin-left: 24.3rem;
+    width: 20.0rem;
+    height: 3.0rem;
+    text-align: center;
+    font: normal normal 600 2.2rem/3.0rem 'Segoe UI';
+    letter-spacing: 0rem;
+    color: #000000;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 700px) {
+    html {
+      font-size: 45%;
+    }
+    
+   
+}
+
+@media only screen and (max-width: 550px) {
+    html {
+      font-size: 45%;
+    }    
+    .main{
+        width: 50rem;
+        padding-bottom: 2rem;
+    }
+    .check{
+        margin-left: 22.1rem;
+    }
+    .th{
+        margin-left: 16.3rem;
+    }
+    
+  }

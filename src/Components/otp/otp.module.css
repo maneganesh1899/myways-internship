@@ -1,0 +1,104 @@
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 67.6rem;
+    height: 57.9rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0rem .3rem .6rem #00000029;
+    border-radius: 1.5rem;
+    opacity: 1;
+}
+.close{
+    margin-top: 2.5rem;
+    margin-left: 3.2rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    border: none;
+}
+.heading{
+    margin-top: 11.5rem;
+    margin-left: 29.6rem;
+    width: 9.6rem;
+    height: 3.0rem;
+    text-align: center;
+    font: normal normal 600 2.2rem/3.0rem Segoe UI;
+    letter-spacing: 0rem;
+    color: #000000;
+    opacity: 1;
+}
+.oinput{
+    margin-top: 4.5rem;
+    margin-left: 16.1rem;
+    width: 36.7rem;
+    height: 6.3rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: .1rem solid #707070;
+    border-radius: 3.2rem;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 2.2rem/3.0rem 'Segoe UI';
+    letter-spacing: 0rem;
+    color: #000000;
+    
+}
+.para{
+    margin-top: 1rem;
+    margin-left: 17.6rem;
+    width: 25.6rem;
+    height: 3.8rem;
+    text-align: left;
+    font: normal normal normal 1.4rem/1.9rem 'Segoe UI';
+    letter-spacing: 0rem;
+    color: #000000;
+    opacity: 1;
+}
+.ebtn{
+    margin-left: 16.6rem;
+    margin-top: 2rem;
+    width: 36.7rem;
+    height: 5.7rem;
+    background: #7ECB20 0% 0% no-repeat padding-box;
+    border-radius: 3.2rem;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 600 2.7rem/3.6rem Segoe UI;
+    letter-spacing: 0rem;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+}
+
+@media only screen and (max-width: 700px) {
+    html {
+      font-size: 45%;
+    }
+    
+   
+}
+
+@media only screen and (max-width: 550px) {
+    html {
+      font-size: 45%;
+    }    
+    .main{
+        width: 40rem;
+        padding-bottom: 2rem;
+    }
+    .heading{
+        margin-left: 15.6rem;
+    }
+    .oinput{
+        margin-left: 1.4rem;
+    }
+    .para{
+        margin-left: 2.5rem;
+    }
+    .ebtn{
+        margin-left: 2rem;
+    }
+    
+  }
